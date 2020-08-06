@@ -15,15 +15,13 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#9C27B0"
-            tools:ignore="Suspicious0dp" />
+            android:background="#9C27B0"/>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#75CF1A"
-            tools:ignore="Suspicious0dp" />
+            android:background="#75CF1A"/>
     </LinearLayout>
 
     <LinearLayout
@@ -36,22 +34,19 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#CF1A1A"
-            tools:ignore="Suspicious0dp" />
+            android:background="#CF1A1A"/>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#CFA21A"
-            tools:ignore="Suspicious0dp" />
+            android:background="#CFA21A"/>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#1A47CF"
-            tools:ignore="Suspicious0dp" />
+            android:background="#1A47CF"/>
     </LinearLayout>
 
     <LinearLayout
