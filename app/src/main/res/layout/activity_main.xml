@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_top_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#D6C31A">
+
+        <LinearLayout
+            android:id="@+id/main_title"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#234236"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Android"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_title"
+            android:layout_marginLeft="20dp"
+            android:background="#2196F3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Là"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_title_btn_right"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#2196F3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Là"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@id/main_title_btn_right"
+            android:layout_alignRight="@id/main_title_btn_right"
+            android:layout_marginRight="20dp"
+            android:background="#234236"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tiền"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#673AB7">
+
+        <TextView
+            android:id="@+id/main_work"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Công việc"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_titleIs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_work"
+            android:layout_toRightOf="@id/main_work"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Là"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_position"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_titleIs"
+            android:layout_marginTop="0dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Địa vị"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_my"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_position"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Của tôi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/main_my"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Trong xã hội"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
